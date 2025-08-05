@@ -184,6 +184,14 @@ header img {
 	width: 18vw;
 }
 
+.blogs {
+	width: 90%;
+		border-bottom: 2px solid black;
+}
+
+.currently {
+	margin-top: 1em;
+}
 
 .underline-border ul li {
 	border-bottom: 2px solid black; 
