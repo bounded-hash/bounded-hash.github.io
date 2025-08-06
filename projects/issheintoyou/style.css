@@ -3,9 +3,14 @@
 	font-size: 1.2em;
 }
 
-
 body {
 	background-color: rgba(197, 236, 252, 30%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main {
 	width: 98vw;
 	display: flex;
 	align-items: center;
@@ -58,4 +63,21 @@ body {
 	border: none;
 	border-radius: 15px;
 	padding: 5px 15px;
+}
+
+
+footer {
+	position: fixed; 
+	bottom: 0;       
+	left: 0;         
+	width: 100%;     
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
 }
