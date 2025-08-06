@@ -4,7 +4,6 @@
 	text-decoration: none;
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	font-size: 1.1rem;
-
 }
 
 body {
@@ -13,6 +12,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	cursor: url("assets/cursor/sword.cur"), auto;
 }
 
 
@@ -201,8 +201,18 @@ header img {
 
 footer {
   grid-column: 1 / 4;
+	position: static;
+	bottom: 0;
+	left: 0;         
+	width: 100%;     
+	background-color: #333;
+	text-align: center;
+	padding: 10px;
 }
 
+footer a {
+	color: white;
+}
 
 
 /* projects */
